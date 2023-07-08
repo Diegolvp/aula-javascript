@@ -8,12 +8,13 @@
 </head>
 <body>
     <script>
-        n = parseInt(prompt("Digite um numero min: "))
-        n2 = parseInt(prompt("Digite um numero max: "))
-        for(i=n;i<=n2;i++)
+        r = 0
+        n = parseInt(prompt("Digite um numero: "))
+        for(i=1;i<=n;i++)
         {
-            if(i % 2 == 0) alert(i)
+            r += i
         }
+        alert(r)
     </script>
 </body>
 </html>
