@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+    var listaClientes = []
+    while (true){
+        nome = prompt("Nome:")
+        email = prompt("E-mail:")
+        tel = parseInt(prompt("Telefone:"))
+        var matrizCliente = [nome, email, tel]
+        listaClientes.push(matrizCliente)
+        brk = prompt("Digite 0 para finalizar")
+        if(brk == 0){
+            console.log(listaClientes) 
+            break;
+        }
+    } 
+    </script>
+</body>
+</html>
